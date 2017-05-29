@@ -1,0 +1,123 @@
+.post{
+
+padding-left:150px;
+text-align:justify;
+}
+#dvMenu input[type="submit"]{
+  padding: 12px 32px;
+  background-color: #80b6f8;
+  border-radius: 12px;
+}
+.box{
+      float: left;
+    display: block;
+    width: 100%;
+}
+.container-2 {
+  /*
+  width: 100px;
+  vertical-align: middle;
+  white-space: nowrap;
+  */
+  float: left;
+  position: relative;
+}
+
+.container-2 input#search {
+  width: 50px;
+  height: 40px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.container-2 input#search:-moz-placeholder {
+  /* Firefox 18- */
+  color: #65737e;
+}
+
+.container-2 input#search::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #65737e;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+  color: #65737e;
+}
+
+.container-2 .icon {
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 12px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.container-2 input#search:focus,
+.container-2 input#search:active {
+  outline: none;
+  width: 300px;
+}
+
+.container-2:hover input#search {
+  width: 300px;
+}
+
+.container-2:hover .icon {
+  color: #93a2ad;
+}
+.yazi{
+text-align:center;
+}
+
+
+.input_exit{
+ max-height: 35px;
+}
+
+/*
+STYLES OF CUSTOMER MONEY TRANSFER
+*/
+#logo{
+  max-height: 90px;
+  width: auto;
+}
+#dvHeader{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+#dvMenu{
+  margin-bottom: 15px;
+}
+#dvMain{
+  width: 770px;
+  margin-bottom: 15px;
+}
+#tblHeader{
+  width: 100%;
+}
+#tblHeader tbody > tr > td:nth-child(2){
+  text-align: right;
+}
+#tblHeader tbody > tr > td:nth-child(3){
+  text-align: right;
+  width: 38px;
+}

@@ -1,0 +1,10 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 400px;
+    height: 125px;
+    background: url('Images/logo.jpg') no-repeat;
+    cursor: pointer
+}
